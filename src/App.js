@@ -2,7 +2,7 @@ import AddEvents from './components/AddEvent';
 import './App.css';
 import AddEventsClass from './components/AddEventsClass';
 import EventBinding from './components/EventBinding';
-
+import EventFunction from './components/EventFunction';
 
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       {/* <AddEvents /> */}
       {/* <AddEventsClass /> */}
-      <EventBinding />
+      {/* <EventBinding /> */}
+      <EventFunction/>
     </div>
   );
 }

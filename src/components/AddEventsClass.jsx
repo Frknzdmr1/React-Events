@@ -9,10 +9,11 @@ class AddEventsClass extends Component {
   render() {
     return (
       <>
-        <button onClick={this.clickHandler}> click me </button>
+        {/* <button onClick={this.clickHandler}> click me </button> */}
+        <button onClick={()=> this.clickHandler }>Click me</button>
       </>
     )
-  }
+  } 
 }
 
 export default AddEventsClass
