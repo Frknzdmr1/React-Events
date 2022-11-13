@@ -14,7 +14,7 @@ const EventFunction = () => {
         setClickCounter(clickCounter+1)
      }
  
-    const rightClickHandler = (e) =>{
+    const rightClickHandler = (e, name) =>{
         e.preventDefault();
         // alert('Right Clicked')
         setRightclickCounter(rightClickCounter+1);

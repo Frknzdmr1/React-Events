@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class AddEventsClass extends Component {
 
-    clickHandler(){
+    clickHandler(a){
         alert('button clicked')
     }
 
